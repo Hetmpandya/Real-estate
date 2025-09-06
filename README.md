@@ -1,12 +1,34 @@
-# React + Vite
+# Real-Estate Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-18.2.0-blue)](https://reactjs.org/) 
+[![Vite](https://img.shields.io/badge/Vite-4.4.9-green)](https://vitejs.dev/) 
+[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
-Currently, two official plugins are available:
+## 🚀 Project Overview
+This is a **Real-Estate project** built using **React + Vite**, featuring a responsive UI with smooth animations.  
+Users can interact with the **contact form**, which integrates **Web3 Mail API** to send messages.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🌟 Features
+- Fully **responsive design** suitable for all devices  
+- **Animations** using Framer Motion  
+- **Contact form** integrated with **Web3 Mail API**  
+- **Notifications** for form submission using React Toastify  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+- **Frontend:** React + Vite  
+- **Styling:** Tailwind CSS  
+- **Animations:** Framer Motion  
+- **Notifications:** React Toastify  
+- **Email Service:** Web3 Mail API  
+
+---
+
+## ⚡ Environment Variables
+Create a `.env` file in the root directory and add your Web3 Mail API key:
+
+```env
+VITE_WEB3MAIL_KEY=your_web3mail_api_key_here
