@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { assets, projectsData } from '../assets/assets'
-import { motion } from 'motion/react';
+import { motion } from "framer-motion"
+
 
 const Project = () => {
 
